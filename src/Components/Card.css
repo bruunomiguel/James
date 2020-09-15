@@ -1,0 +1,38 @@
+.Card-list {
+  margin: 0;
+  padding: 0;
+}
+
+.Card-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(63, 62, 62);
+}
+
+.Card-item {
+  list-style: none;
+  text-align: left;
+  background-color: #fff;
+  padding: 10px;
+  margin: 20px auto 0 auto;
+  width: 70%;
+  border-radius: 5px;
+  -webkit-box-shadow: 16px 17px 24px -12px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 16px 17px 24px -12px rgba(0, 0, 0, 0.16);
+  box-shadow: 16px 17px 24px -12px rgba(0, 0, 0, 0.16);
+  display: flex;
+}
+
+.Card-image {
+  width: 80px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.Card-item-title {
+  font-weight: 600;
+}
+
+.Card-box {
+  background-color: rgb(129, 100, 100);
+}
